@@ -1,7 +1,7 @@
 # importando a biblioteca
-from pytholog import pytholog
+import pytholog as pl
 
-new_kb = pytholog.KnowledgeBase("base")
+new_kb = pl.KnowledgeBase("base")
 new_kb(["cd(Ten,PearlJam,Epic,1991)",
 "cd(NeverMind,Nirvana,VirginSongs,1992)",
 "músico_banda(JeffAment,PearlJam)",
